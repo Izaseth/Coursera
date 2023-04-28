@@ -24,6 +24,10 @@
 	border: 1px solid black;
 }
 
+p{
+	padding: 5px;
+}
+
 
 .row{
 	width: 100%;
