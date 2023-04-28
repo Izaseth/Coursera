@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;	
+}
+
+#title{
+	text-align: center;
+}
+
+.name_block{
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	padding:5px 20px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.Choice_box{
+	position: relative;
+	background: #999999;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+
+.row{
+	width: 100%;
+}
+
+@media (max-width: 767px){
+	.sm-12{
+		float: left;
+		width: 100.0%;
+		padding: 10px;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.md-6{
+		float: left;
+		width: 50.0%;
+		padding: 10px;
+	}
+	
+	.md-12{
+		float:left;
+		width: 100.0%;
+		padding: 10px;
+	}
+}
+
+@media (min-width: 992px){
+	.lg-4{
+		float: left;
+		width: 33.0%;
+		padding: 10px;
+	}
+}
